@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basic JavaScript</title>
+    <script>
+        // alert('Hello from HTML JavaScript');
+        document.write("Hello from HTML JS")
+        console.log("I'm console.log")
+        
+        
+    </script>
+</head>
+<body>
+    <h3>Learning HTML JS</h3>
+
+    <button type="button"
+onclick="document.getElementById('display_date').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="display_date"></p>
+
+<center id="output1"></center>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<h3 id="output2">This content will be changed soon</h3>
+
+
+
+<script>
+    document.getElementById("output1").innerHTML = "<b><mark>Hello Universe and JS</mark></b>";
+
+    function myFunction() {
+  document.getElementById("output2").style.fontSize = "25px"; 
+  document.getElementById("output2").style.color = "black";
+  document.getElementById("output2").style.backgroundColor = "yellow";        
+}
+</script>
+
+
+</body>
+</html>

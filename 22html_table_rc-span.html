@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table with Rowspan and ColSpan</title>
+    <style>
+        table, th, td{
+            border: 1px solid gray;
+            border-collapse: collapse; 
+        }
+        th, td{
+            padding: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <h2>You are learning HTML Table rowspan and colspan</h2>
+    <table>
+        <tr>
+            <!-- tr: table row -->
+            <th colspan="2">Col1 - 2</th> <!-- Col0 --> <!-- th: table head -->
+            <th>Col3</th>
+            <th>Col4</th> <!-- Col1 -->
+            <th>Col5</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Row2 -3 </td> <!-- td: table data -->
+            <td>Row2</td>
+            <td>Row2</td>
+            <td>Row2</td>
+            <td>Row2</td>
+        </tr>
+        <tr>
+             <td>Row3</td> <!-- td: table data -->
+            <td>Row3</td>
+            <td>Row3</td>
+            <td>Row3</td>
+            
+        </tr>
+         <tr>
+            <td>Row4</td> <!-- td: table data -->
+            <td>Row4</td>
+            <td>Row4</td>
+            <td>Row4</td>
+            <td>Row4</td>
+        </tr>
+        <tr>
+            <td>Row5</td> <!-- td: table data -->
+            <td>Row5</td>
+            <td>Row5</td>
+            <td colspan="2">Row5</td>
+        </tr>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Table Header</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;                
+        }
+        th, td{
+            text-align: center;
+        }
+           
+    </style>
+    <!--  
+        border-collapse: collapse; // Single Border 
+
+    -->
+</head>
+<body>
+    <h2>Learning HTML Table Border with HKimhab</h2>
+    <table>
+        <tr>
+            <!-- tr: table row -->
+            <th>Name</th> <!-- Col0 --> <!-- th: table head -->
+            <td>HKimhab</td> 
+             <td>S.Khuoch</td> 
+            <!-- Col1 -->
+           
+        </tr>
+        <tr>
+            <th>Gender</th> 
+            <!-- td: table data -->
+            <td>Male</td>
+            <td>Female</td>
+           
+        </tr>
+        <tr>
+             <th>Email</th>
+           <!-- td: table data -->
+             <td>hkimhab22@gamil.com</td>
+            <td>s.khuoch22@gamil.com</td>
+        </tr>
+
+    </table>
+    <hr>
+    <table>
+        <caption>Personal Information</caption>
+        <tr>
+            <!-- tr: table row -->
+            <th>Name</th> <!-- Col0 --> <!-- th: table head -->
+            <th>Gender</th> <!-- Col1 -->
+            <th>Email</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <td>HKimhab</td> <!-- td: table data -->
+            <td>Male</td>
+            <td>hkimhab22@gamil.com</td>
+            <td>Kandal</td>
+            <td>Now PP</td>
+        </tr>
+        <tr>
+            <td>S.Khuoch</td> <!-- td: table data -->
+            <td>Female</td>
+            <td>s.khuoch22@gamil.com</td>
+             <td>Kandal</td>
+            <td>Now PP</td>
+        </tr>
+
+    </table>
+</body>
+</html>

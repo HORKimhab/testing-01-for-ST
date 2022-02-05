@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Styling</title>
+    <style>
+        table, th, td{
+            border: 1px solid gray;
+            border-collapse: collapse; 
+            
+        }
+        th, td{
+            padding: 10px; 
+        }
+        tr:nth-child(even){
+            background-color: yellowgreen;
+        }
+        th:nth-child(odd){
+            background-color: rgb(98, 112, 68);
+        }
+        td:nth-child(3n-1){
+            background-color: steelblue;
+        }
+    </style>
+</head>
+<body>
+    <h2>HTML Table Styling</h2>
+    <table>
+        <tr>
+            <!-- tr: table row -->
+            <th>Col1 Row1</th> <!-- Col0 --> <!-- th: table head -->
+             <th>Col2</th>
+            <th>Col3</th>
+            <th>Col4</th> <!-- Col1 -->
+            <th>Col5</th>
+        </tr>
+        <tr>
+            <td>Row2</td> <!-- td: table data -->
+            <td>Row2</td>
+            <td>Row2</td>
+            <td>Row2</td>
+            <td>Row2</td>
+        </tr>
+        <tr>
+             <td>Row3</td> <!-- td: table data -->
+            <td>Row3</td>
+            <td>Row3</td>
+            <td>Row3</td>
+            <td>Row3</td>
+            
+        </tr>
+         <tr>
+            <td>Row4</td> <!-- td: table data -->
+            <td>Row4</td>
+            <td>Row4</td>
+            <td>Row4</td>
+            <td>Row4</td>
+        </tr>
+        <tr >
+            <td style="border-left-color: red; border-right-color: yellow; border-right-width: 5px;">Row5</td> <!-- td: table data -->
+            <td>Row5</td>
+            <td>Row5</td>
+            <td>Row5</td>
+            <td>Row5 Col5</td>
+        </tr>
+
+    </table>
+</body>
+</html>

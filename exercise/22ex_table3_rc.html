@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise Exercsie HTML rowspan and colspan</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;                
+        }
+        th,td{
+            padding: 8px;
+        }
+
+    </style>
+    <!--  
+        border-collapse: collapse; // Single Border 
+    -->
+</head>
+<body>
+    <h2>Practise Exercsie HTML Table Padding and Spacing</h2>
+    <table style="width:80%">
+        <caption><mark>HTML Table with Padding</mark></caption>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+         <th>Gender</th>
+    </tr>
+    <tr>
+        <td colspan="2" style="text-align: center;">Chheng</td>
+        <td rowspan="3" style="text-align: center; background-color: grey;">26</td>
+        <td>Female</td>
+    </tr>
+    <tr>
+        <td>Duji</td>
+        <td>Channa</td>
+        <!-- <td>26</td> -->
+        <td rowspan="2" style="background-color: darkorange;">Male</td>
+    </tr>
+     <tr>
+        <td>Long</td>
+        <td>Sreng</td>
+        <!-- <td>2</td> -->
+    </tr>
+</table>
+ 
+<pre>
+    - Chheng & 26 : align text is center
+    - <b>26: </b> background-color is gray
+</pre>
+<p>Default Table with Padding is (width=80%): <b>22px</b> Background color: darkorange</p>
+
+</body>
+</html>

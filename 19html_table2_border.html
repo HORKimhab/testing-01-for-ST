@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Table Border</title>
+    <style>
+        table, th, td{
+            border: 3px solid black;
+            border-collapse: collapse; 
+            border-radius: 5px;
+            
+        }
+        th, td{
+            background-color: darkgrey;
+            border-style: dotted;
+        }
+    </style>
+    <!--  
+        border-collapse: collapse; // Single Border 
+
+    -->
+</head>
+<body>
+    <h2>Learning HTML Table Border with HKimhab</h2>
+    <table>
+        <tr>
+            <!-- tr: table row -->
+            <th>Name</th> <!-- Col0 --> <!-- th: table head -->
+            <th>Gender</th> <!-- Col1 -->
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>HKimhab</td> <!-- td: table data -->
+            <td>Male</td>
+            <td>hkimhab22@gamil.com</td>
+        </tr>
+        <tr>
+            <td>S.Khuoch</td> <!-- td: table data -->
+            <td>Female</td>
+            <td>s.khuoch22@gamil.com</td>
+        </tr>
+
+    </table>
+</body>
+</html>
